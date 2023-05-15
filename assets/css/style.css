@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh; /*vh é o view port (tamanho referente ao tamanho do view port)*/
+    box-sizing: border-box; /*Serve para mandanter um controle (imagem ou objeto nao sair do body)*/
+    background-color:rgb(10, 3, 34);
+    color: #F6F6F6;
+}
+
+
+
+/*main*/
+.apresentacao{
+    margin: 10% 17%; /*Margin entre a imagem e o conteudo*/
+    display: flex;
+    align-items: center; /*Alinhados no centro*/
+    justify-content: space-between; /*como a distribuição dos elementos ira ficar (paramentro para alinhamento)*/
+}
+
+/*Section*/
+.apresentacao_conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*parametro do flex box para distanciamento entre os elementos filhos*/
+}
+
+/*h1*/
+.apresentacao_conteudo_titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+
+}
+
+/*span*/
+.titulo-principal{
+    color: #22D4FD;
+    font-weight: bold;
+}
+
+/*p*/
+.apresentacao_conteudo_texto{
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+img{
+    width: 400px;
+    height: 502px;
+    border-radius: 5%;
+    box-shadow: 5px 0px 10px rgb(1, 15, 94) ;
+}
+
+.apresentacao_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px; /*Espaçamento entre os elementos*/
+}
+
+.apresentacao_links_subtitulo{
+    font-family: 'Krona One',sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+.apresentacao_links_link{
+   /* background-color: #22D4FD;  */
+    border: 2px solid #22D4FD; /*largura da borda, tipo da borda e cor da borda*/
+    width: 378px; 
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600; /*Peso da fonte*/
+    font-size: 24px;
+    text-decoration: none;
+    padding: 21.5px 0; /*horizontal e vertical*/
+    color: #f6f6f6;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
