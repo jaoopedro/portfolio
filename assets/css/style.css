@@ -52,7 +52,7 @@ body{
 }
 
 
-img{
+.foto-principal{
     width: 400px;
     height: 502px;
     border-radius: 5%;
@@ -76,6 +76,9 @@ img{
 
 .apresentacao_links_link{
    /* background-color: #22D4FD;  */
+    display: flex;
+     justify-content: center; /* alinhando os elementos no centro */
+     gap: 16px; /* da espaçamento de acordo com a direção do flexbox seja ele row ou colum */
     border: 2px solid #22D4FD; /*largura da borda, tipo da borda e cor da borda*/
     width: 378px; 
     text-align: center;
@@ -87,3 +90,4 @@ img{
     color: #f6f6f6;
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
