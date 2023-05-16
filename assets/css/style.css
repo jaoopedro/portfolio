@@ -89,5 +89,9 @@ body{
     padding: 21.5px 0; /*horizontal e vertical*/
     color: #f6f6f6;
     font-family: 'Montserrat Alternates', sans-serif;
+    transition: 0.5s background-color;
 }
 
+.apresentacao_links_link:hover{
+    background-color: #1d0146;
+}
