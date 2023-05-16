@@ -15,7 +15,7 @@
   
 /* Estilo do scroll thumb (barra de arrastar) */
 ::-webkit-scrollbar-thumb {
-    background-color: #9900ff; /* Cor da barra de arrastar */
+    background-color: #005b80; /* Cor da barra de arrastar */
     border-radius: 5px; /* Raio da barra de arrastar (arredondado) */
 }
   
