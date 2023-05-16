@@ -33,11 +33,27 @@ body{
     color: #F6F6F6;
 }
 
+.cabecalho{
+    padding: 2% 0 0 17%; /* superior, direito, inferio e esquerdo */ /*melhor para % para a responsividade*/
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px; /*para o espaçamento entre os links*/
+}
+
+.cabecalho_menu_link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:#22D4FD ;
+    text-decoration: none;
+}
 
 
 /*main*/
 .apresentacao{
-    padding: 8% 17%; /*Margin entre a imagem e o conteudo*/
+    padding: 6% 17%; /*Margin entre a imagem e o conteudo*/
     display: flex;
     align-items: center; /*Alinhados no centro*/
     justify-content: space-between; /*como a distribuição dos elementos ira ficar (paramentro para alinhamento)*/
@@ -126,4 +142,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
     font-weight: 400;
+}
+
+.apresentacao_conteudo_texto_experiencia{
+    padding-bottom: 15px;
+}
+
+.apresentacao_conteudo_texto_formacao{
+    padding-bottom: 10px;
 }
