@@ -53,7 +53,7 @@ body{
 
 /*main*/
 .apresentacao{
-    padding: 6% 17%; /*Margin entre a imagem e o conteudo*/
+    padding: 10% 17%; /*Margin entre a imagem e o conteudo*/
     display: flex;
     align-items: center; /*Alinhados no centro*/
     justify-content: space-between; /*como a distribuição dos elementos ira ficar (paramentro para alinhamento)*/
