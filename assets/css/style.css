@@ -25,12 +25,19 @@
     /* border-radius: 5px; Raio do fundo do scroll (arredondado) */
 }
   
+/*Criando variavel*/
+:root{
+    --cor-primaria:rgb(10, 3, 34);
+    --cor-fonte:#F6F6F6;
+    --fonte-principal:'Montserrat', sans-serif;
+    --fonte-secundaria:'Krona One', sans-serif;
+}
   
 body{
     /* height: 100vh; vh é o view port (tamanho referente ao tamanho do view port) */
     box-sizing: border-box; /*Serve para mandanter um controle (imagem ou objeto nao sair do body)*/
-    background-color:rgb(10, 3, 34);
-    color: #F6F6F6;
+    background-color:var(--cor-primaria);
+    color: var(--cor-fonte);
 }
 
 .cabecalho{
@@ -43,7 +50,7 @@ body{
 }
 
 .cabecalho_menu_link{
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-principal);
     font-size: 24px;
     font-weight: 600;
     color:#22D4FD ;
@@ -69,8 +76,8 @@ body{
 
 /*h1*/
 .apresentacao_conteudo_titulo{
-    font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem;/*1rem equivale a 16px*/
+    font-family: var(--fonte-secundaria);
 
 }
 
@@ -83,7 +90,7 @@ body{
 /*p*/
 .apresentacao_conteudo_texto{
     font-size: 25px;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: var(--fonte-principal);
 }
 
 
@@ -103,7 +110,7 @@ body{
 }
 
 .apresentacao_links_subtitulo{
-    font-family: 'Krona One',sans-serif;
+    font-family: var(--fonte-secundaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -123,7 +130,7 @@ body{
     text-decoration: none;
     padding: 21.5px 0; /*horizontal e vertical*/
     color: #f6f6f6;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: var(--fonte-principal);
     transition: 0.5s background-color;
     transition: 0.6s width;
 }
@@ -139,7 +146,7 @@ body{
     color: #ffffff;
     background-color: #6422fd;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 17px;
     font-weight: 400;
 }
