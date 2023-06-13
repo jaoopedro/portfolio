@@ -160,10 +160,8 @@ body{
     padding-bottom: 10px;
 }
 
+/*Responsividade*/
 @media(max-width:1200px){
-    body{
-        background-color: #012230;
-    }
     .cabecalho{
       padding: 10%; 
     }
@@ -173,9 +171,10 @@ body{
 
     .apresentacao{
         flex-direction: column-reverse; /*deixa o invertido a ordem dos elementos na coluna*/
+        padding: 5%;     
     }
-    .rodape{
-        background-color: #005b80;
+    .apresentacao_conteudo{
+        width: auto;
     }
 
 }
