@@ -163,7 +163,7 @@ body{
 /*Responsividade*/
 @media(max-width:1200px){
     .cabecalho{
-      padding: 10%; 
+      padding: 8%; 
     }
     .cabecalho_menu{
         justify-content: center;
