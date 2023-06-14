@@ -97,7 +97,7 @@ body{
 
 
 .apresentacao_imagem{
-    width: 50%;
+    width: 45%;
     border-radius: 5%;
     box-shadow: 5px 0px 10px rgb(1, 15, 94) ;
 }
@@ -175,6 +175,10 @@ body{
     }
     .apresentacao_conteudo{
         width: auto;
+    }
+
+    .apresentacao_imagem{
+        width: 65%;
     }
 
 }
