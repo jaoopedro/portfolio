@@ -95,9 +95,12 @@ body{
     font-family: var(--fonte-principal);
 }
 
+.apresentacao_conteudo_texto a{
+    color: #ffffff;
+}
 
 .apresentacao_imagem{
-    width: 45%;
+    width: 40%;
     border-radius: 5%;
     box-shadow: 5px 0px 10px rgb(1, 15, 94) ;
 }
